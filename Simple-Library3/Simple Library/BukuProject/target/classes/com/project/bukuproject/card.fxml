@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="box" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="139.0" prefWidth="328.0" spacing="15.0" style="-fx-background-radius: 15;" styleClass="shadow" stylesheets="@../../../css/styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.bukuproject.CardController">
+   <children>
+      <ImageView fx:id="bookImage" fitHeight="118.0" fitWidth="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/buku1.jpg" />
+         </image>
+      </ImageView>
+      <VBox alignment="CENTER_LEFT" prefHeight="141.0" prefWidth="205.0" spacing="10.0">
+         <children>
+            <Label fx:id="namaBuku" prefHeight="70.0" prefWidth="213.0" text="Pantaskah OJK Dibubarkan?">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="namaPenulis" layoutX="10.0" layoutY="55.0" prefHeight="7.0" prefWidth="205.0" text="Dr. Hadi Utomo">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</HBox>
